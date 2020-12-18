@@ -1,16 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import App from './App';
-import { Auth0Provider } from "@auth0/auth0-react";
+
 
 ReactDOM.render(
-  <Auth0Provider
-    domain="stocks-squared.us.auth0.com"
-    clientId="Z7xxT9uyPSAALDN10E9Z6wm2csvU8LRi"
-    redirectUri={window.location.origin}
-  >
+  <React.StrictMode>
     <App />
-  </Auth0Provider>,
+  </React.StrictMode>, 
   document.getElementById('root')
 );
-

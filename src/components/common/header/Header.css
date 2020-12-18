@@ -1,0 +1,44 @@
+.header-top {
+    display: flex;
+    flex-direction: row;
+}
+
+.header-top-logo {
+    margin-left: 10%;
+}
+
+.btn-custom-1 {
+    background-color: #6198C9;
+    color: #fff;
+}
+
+.btn-custom-1:hover {
+    color: #fff;
+    font-size: 1.1rem;
+}
+
+.btn-custom-2 {
+    border: 2px solid #6198C9;
+    color: #6198C9;
+}
+
+.header-logo-image {
+    width: 20%;
+}
+
+@media only screen and (max-width: 1200px) {
+    .header-top {
+        display: flex;
+        flex-direction: column;
+    }
+    .header-top-logo {
+        text-align: center !important;
+        margin: auto;
+    }
+    .header-logo-image {
+        width: 50%;
+    }
+    .header-top-account {
+        margin-top: 15px;
+    }
+}
