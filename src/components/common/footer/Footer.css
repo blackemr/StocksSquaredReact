@@ -1,0 +1,8 @@
+.footer-section {
+    width: 100%;
+    background-color: #A0A0A0;
+    line-height: 50px;
+    position: absolute;
+    bottom: 0;
+    color: #fff;
+}
