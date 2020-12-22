@@ -18,7 +18,7 @@ export default function FeatureRequest() {
   return (
     <>
       <Header />
-      <div class="container">
+      <div class="contain-custom">
         <h2 className="text-center mt-3">Request a Feature</h2>
         <p class="text-center">Stocks Squared gets better by community input. We appreciate the suggestions
         that our community provides!</p>
