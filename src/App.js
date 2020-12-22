@@ -1,30 +1,17 @@
-import React from 'react';
+import logo from './logo.svg';
 import './App.css';
-import About from './About';
-import Colleges from './Colleges';
-import FeatureRequest from './FeatureRequest';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-
 
 function App() {
   return (
-    <Router>
-      <div className="App">
-        <Switch>
-          <Route path="/" exact component={Home}/>
-          <Route path="/about-us" component={About}/>
-          <Route path="/colleges" component={Colleges}/>
-          <Route path="/feature-request" component={FeatureRequest}/>
-        </Switch>
-      </div>
-    </Router>
+    <div className="App">
+      <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+        <p>
+          Stocks Squared will live here soon
+        </p>
+      </header>
+    </div>
   );
 }
-
-const Home = () => (
-  <>
-    
-  </>
-);
 
 export default App;

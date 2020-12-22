@@ -1,0 +1,55 @@
+.menu {
+  background-color: #000000;
+  float: right;
+  right: 0;
+  position: absolute;
+  width: 400px;
+  opacity: .85;
+  height: 100%;
+  animation-name: navbar;
+  animation-duration: 2s;
+}
+
+@keyframes navbar {
+  from {right:-400px;}
+  to {right:0px;}
+}
+
+.listItem {
+  color: #FFFFFF;
+  text-align: center;
+  list-style: none;
+  font-size: 20px;
+  padding: 4rem;
+  padding-right: 30px;
+  width: 400px;
+  float: right;
+}
+
+.listItem:hover {
+  background-color: #4f4f4f;
+}
+
+.slogan {
+  color: #FFFFFF;
+  list-style: none;
+  text-align: center;
+  padding-top: 30px;
+  font-size: 18px;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.link:hover {
+  text-decoration: none;
+}
+
+.hrzLine {
+  color: #FFFFFF;
+  text-align: center;
+  list-style: none;
+  font-size: 20px;
+  padding: 0.5rem;
+}
