@@ -1,0 +1,100 @@
+.logo {
+  display: block;
+  margin-right: auto;
+  position: absolute;
+  top: 300px;
+  width: 950px;
+  height: 278px;
+  animation-duration: 2s;
+  animation-name: logo;
+}
+
+@keyframes logo {
+  from {left: -950px;}
+  to {left: 0px;}
+  overflow-x:hidden;
+}
+
+.greyRectangle {
+  width:1000px;
+  height:350px;
+  background: #000000;
+  opacity: .2;
+  position: absolute;
+  top: 265px;
+  animation-duration: 2s;
+  animation-name: logo;
+}
+
+.whiteRectangle {
+  width:975px;
+  height:300px;
+  background: #FFFFFF;
+  position: absolute;
+  top: 290px;
+  animation-duration: 2s;
+  animation-name: logo;
+}
+
+.login {
+  position: absolute;
+  top: 650px;
+  left: 100px;
+  background: #6297c8;
+  color: #FFFFFF;
+  padding: 1px;
+  width: 230px;
+  height: 60px;
+  text-align: center;
+  outline-style: solid;
+  animation-duration: 2s;
+  animation-name: login;
+}
+
+.loginText {
+  font-size: 25px;
+  padding-top: 10px;
+  animation-duration: 2s;
+  animation-name: login;
+}
+
+@keyframes login {
+  from {left: -400px;}
+  to {left: 100px;}
+}
+
+.signup {
+  position: absolute;
+  top: 648px;
+  left: 600px;
+  background: #9f9f9f;
+  color: #FFFFFF;
+  padding: 1px;
+  width: 230px;
+  height: 60px;
+  text-align: center;
+  outline-style: solid;
+  animation-duration: 2s;
+  animation-name: signup;
+}
+
+.signupText {
+  font-size: 25px;
+  padding-top: 10px;
+  animation-duration: 2s;
+  animation-name: signup;
+}
+
+@keyframes signup {
+  from {left: -400px;}
+  to {left: 600px;}
+}
+
+
+.login:hover {
+  background-color: #8ebbe6;
+}
+
+.signup:hover {
+  background-color: #cfcfcf;
+}
