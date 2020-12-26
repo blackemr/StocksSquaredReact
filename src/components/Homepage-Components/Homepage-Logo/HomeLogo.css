@@ -3,8 +3,8 @@
   margin-right: auto;
   position: absolute;
   top: 300px;
-  width: 950px;
-  height: 278px;
+  left: 50px;
+  width: 40%;
   animation-duration: 2s;
   animation-name: logo;
 }
@@ -12,12 +12,11 @@
 @keyframes logo {
   from {left: -950px;}
   to {left: 0px;}
-  overflow-x:hidden;
 }
 
 .greyRectangle {
-  width:1000px;
-  height:350px;
+  width: 53%;
+  height:230px;
   background: #000000;
   opacity: .2;
   position: absolute;
@@ -27,8 +26,8 @@
 }
 
 .whiteRectangle {
-  width:975px;
-  height:300px;
+  width:50%;
+  height:220px;
   background: #FFFFFF;
   position: absolute;
   top: 290px;

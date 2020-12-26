@@ -1,12 +1,11 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import './Pricing.css';
 
 function Pricing() {
   return (
     <div>
       <div className='blurRecPricing'></div>
-      <img src='/Images/NYEX.png' className="stockMarket"></img>
+      <img src={window.location.origin + '/images/NYEX.png'} className="stockMarket" alt="New york stock exchange"></img>
       <h1 className='pricing'>Pricing</h1>
 
       <a href="#" className="link">

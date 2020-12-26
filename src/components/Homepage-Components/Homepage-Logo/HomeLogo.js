@@ -1,5 +1,4 @@
-import React, {Component} from 'react';
-import ReactDOM from 'react-dom';
+import React from 'react';
 import './HomeLogo.css';
 
 function HomeLogo() {
@@ -7,7 +6,7 @@ function HomeLogo() {
     <div>
       <div className="greyRectangle"></div>
       <div className="whiteRectangle"></div>
-      <img src="./Images/TempLogo.png" className="logo"></img>
+      <img src={window.location.origin + '/images/stocks-squared.png'} className="logo" alt="stocks squared logo"></img>
 
       <div className="loginRectangle"></div>
         <a href='#'>

@@ -10,7 +10,7 @@ function Colleges() {
           <p>
           </p>
             <Card style={{ width: '18rem' }}>
-              <Card.Img variant="top" src={window.location.origin + '/images/miami-logo.jpg'}/>
+              <Card.Img variant="top" src={window.location.origin + '/images/miami-logo.jpg'} alt="Miami University"/>
               <Card.Body>
                   <Card.Title>Miami University</Card.Title>
                   <Card.Text>
@@ -29,7 +29,7 @@ function Colleges() {
               </Card.Body>
             </Card>
             <Card style={{ width: '18rem' }}>
-              <Card.Img variant="top" src={window.location.origin + '/images/miami-logo.jpg'}/>
+              <Card.Img variant="top" src={window.location.origin + '/images/miami-logo.jpg'} alt="Miami University"/>
               <Card.Body>
                   <Card.Title>Miami University</Card.Title>
                   <Card.Text>

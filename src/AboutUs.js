@@ -1,12 +1,12 @@
 import React from "react";
-import ReactDOM from 'react-dom';
-import './AboutUs.css'
+import './AboutUs.css';
+import { Link } from 'react-router-dom';
 
 function AboutUs() {
   return (
     <div>
       <div className='blurRec'></div>
-      <img src='/Images/aboutUs.jpg' className="skyline"></img>
+      <img src={window.location.origin + '/images/aboutUs.jpg'} className="skyline" alt="about image"></img>
       <h1 className='aboutUs'>About Us</h1>
 
       <div className="column">
@@ -48,15 +48,15 @@ function AboutUs() {
 
       <div className="teamImage">
         <h3 className="ourNames">Matthew Blackert</h3>
-        <img src="/Images/TeamImages/temp.png" className="perImage"></img>
+        <img src={window.location.origin + '/images/TeamImages/temp.png'} className="perImage" alt="matt blackert"></img>
       </div>
       <div className="teamImage">
         <h3 className="ourNames">Max Beedy</h3>
-        <img src="/Images/TeamImages/temp.png" className="perImage"></img>
+        <img src={window.location.origin + '/images/TeamImages/temp.png'} className="perImage" alt="max beedy"></img>
       </div>
       <div className="teamImage">
         <h3 className="ourNames">Ray Zhang</h3>
-        <img src="/Images/TeamImages/temp.png" className="perImage"></img>
+        <img src={window.location.origin + '/images/TeamImages/temp.png'} className="perImage" alt="ray zhang"></img>
       </div>
 
       <div className="column">
