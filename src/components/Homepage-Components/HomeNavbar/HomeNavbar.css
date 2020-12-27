@@ -53,3 +53,17 @@
   font-size: 20px;
   padding: 0.5rem;
 }
+
+@media only screen and (max-width: 1200px) {
+  .menu {
+    position: fixed;
+    left: 0;
+    width: 100%;
+    height: 38vh;
+  }
+  .listItem {
+    font-size: 18px;
+    padding: 1em;
+    padding-right: 60px;
+  }
+}

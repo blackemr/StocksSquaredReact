@@ -64,7 +64,7 @@
 
 @keyframes login {
   from {left: -400px;}
-  to {left: 100px;}
+  to {left: 32.7%;}
 }
 
 .signup {
@@ -91,7 +91,7 @@
 
 @keyframes signup {
   from {left: -400px;}
-  to {left: 600px;}
+  to {left: 32.7%;}
 }
 
 
@@ -101,4 +101,29 @@
 
 .signup:hover {
   background-color: #cfcfcf;
+}
+
+@media only screen and (max-width: 1200px) {
+  .logo {
+    top: 400px;
+    width: 60%;
+  }
+  .whiteRectangle {
+    height: 12.5%;
+    width: 80%;
+    top: 385px;
+  }
+  .greyRectangle {
+    width: 72.5%;
+    height:14.5%;
+    top: 365px;
+  }
+  .login {
+    top: 600px;
+    left: 32.7%;
+  }
+  .signup {
+    top: 700px;
+    left: 32.7%;
+  }
 }
