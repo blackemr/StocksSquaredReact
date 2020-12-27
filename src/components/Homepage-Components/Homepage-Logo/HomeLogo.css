@@ -11,28 +11,33 @@
 
 @keyframes logo {
   from {left: -950px;}
+  to {left: 50px;}
+}
+
+@keyframes logoRec {
+  from {left: -950px;}
   to {left: 0px;}
 }
 
 .greyRectangle {
-  width: 53%;
-  height:230px;
+  width: 51.5%;
+  height:300px;
   background: #000000;
   opacity: .2;
   position: absolute;
-  top: 265px;
+  top: 270px;
   animation-duration: 2s;
-  animation-name: logo;
+  animation-name: logoRec;
 }
 
 .whiteRectangle {
   width:50%;
-  height:220px;
+  height:260px;
   background: #FFFFFF;
   position: absolute;
   top: 290px;
   animation-duration: 2s;
-  animation-name: logo;
+  animation-name: logoRec;
 }
 
 .login {
