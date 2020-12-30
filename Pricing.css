@@ -1,0 +1,68 @@
+.blurRecPricing {
+  height: 100px;
+  width: 100%;
+  position: absolute;
+  background-color: #000000;
+  top: 165px;
+}
+
+.pricing {
+  position: relative;
+  bottom: 234px;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 80px;
+  -webkit-text-stroke-width: 2px;
+  animation-name: pricing;
+  animation-duration: 2s;
+}
+
+@keyframes pricing {
+ from {left:-800px;}
+ to {left:0px;}
+}
+
+.stockMarket{
+  opacity: 0.8;
+}
+
+.priceOptions {
+  float: left;
+  width: 25%;
+  outline: 2px solid #2b2b2b;
+  margin-left: 100px;
+  margin-right: 40px;
+  position: relative;
+  animation-name: desc;
+  animation-duration: 1.5s;
+}
+
+.priceName {
+  text-align: center;
+  font-size: 40px;
+  padding-bottom: 30px;
+  position: relative;
+  animation-name: desc;
+  animation-duration: 1.5s;
+}
+
+.priceDesc {
+  text-align: center;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: 19px;
+  padding-bottom: 30px;
+  position: relative;
+  animation-name: desc;
+  animation-duration: 1.5s;
+}
+
+@keyframes desc {
+ from {right:-900px;}
+ to {right:0px;}
+}
+
+.link {
+  text-decoration: none;
+  color: #000;
+}
