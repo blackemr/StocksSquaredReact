@@ -54,7 +54,7 @@ function AboutUs() {
       </div>
       <div className="teamImage">
         <h3 className="ourNames">Max Beedy</h3>
-        <img src={window.location.origin + '/images/TeamImages/temp.png'} className="perImage" alt="max beedy"></img>
+        <img src={window.location.origin + '/images/TeamImages/maxBeedy.png'} className="perImage" alt="max beedy"></img>
       </div>
       <div className="teamImage">
         <h3 className="ourNames">Ray Zhang</h3>

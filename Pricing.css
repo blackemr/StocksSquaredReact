@@ -15,6 +15,7 @@
   -webkit-text-stroke-width: 2px;
   animation-name: pricing;
   animation-duration: 2s;
+  user-select: none;
 }
 
 @keyframes pricing {
