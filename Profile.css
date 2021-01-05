@@ -1,0 +1,96 @@
+.timelineNavbar {
+    position: relative;
+    padding: 4rem;
+    padding-left: 250px;
+    list-style: none;
+    font-size: 26px;
+    line-height: 4rem;
+}
+
+.mainRect {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    height: 100%;
+    background-color: #2b2b2b;
+    margin: auto;
+}
+
+.profileImageDiv {
+    padding-left: 50px;
+    padding-top: 50px;
+    position: relative;
+    float: left;
+    padding-right: 50px;
+    height: 270px;
+}
+
+.pfp {
+    width: 170px;
+    border-radius: 3ex;
+    background-color: #fff;
+    padding: 4px;
+}
+
+.username {
+    padding-top: 50px;
+    font-size: 30px;
+    color: white;
+}
+
+.description {
+   font-size: 16px;
+   color: white;
+}
+
+.dateJoined {
+    font-size: 20px;
+    color: white;
+}
+
+.followage {
+    float: left;
+    padding-right: 30px;
+    color: white;
+}
+
+.editButton {
+   margin-left: 40px;
+   background-color: #6297c8;
+   color: white;
+   border: none;
+   padding: 5px 20px;
+   font-size: 18px;
+}
+
+.followers {
+    color: white;
+    padding-bottom: 50px;;
+}
+
+.postsType {
+    padding-top: 7px;
+    background-color: #5b5b5b;
+    padding-left: 310px;
+    padding-bottom: 10px;
+    color: white;
+}
+
+.postList {
+    list-style: none;
+    font-size: 25px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+}
+
+.postlistItem {
+    padding: 1rem;
+}
+
+.postlistItem:hover {
+    background-color: #2b2b2b;
+}
